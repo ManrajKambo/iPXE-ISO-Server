@@ -90,7 +90,7 @@ class iPXE:
 
 	def __generate_ipxe_script(self, type: int) -> str:
 		data: Dict = self.__ipxe_menu_data
-		base_url = f"{request.scheme}://{request.host}:{request.environ.get('SERVER_PORT')}/{self.__files_dir}/"
+		base_url = f"{request.scheme}://{request.host}/{self.__files_dir}/"
 
 		menu_items = ""
 		boot_sections = ""
