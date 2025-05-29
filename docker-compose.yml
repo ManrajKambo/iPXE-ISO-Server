@@ -1,0 +1,11 @@
+services:
+  ipxe_app:
+    build:
+      context: .
+    container_name: ipxe
+    ports:
+      - "80:80"
+    volumes:
+      - ./mount:/mount
+      - ./Images.json:/Images.json:ro
+    restart: unless-stopped

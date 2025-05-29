@@ -1,0 +1,23 @@
+{
+	"Categories": {
+		"VMware ESXi": {
+			"VMware ESXI 6.7.0 Update 3 (Build 15160138)": "VMware-VMvisor-Installer-201912001-15160138.x86_64.iso",
+			"VMware ESXI 7.0 Update 3 (Build 21930508)": "VMware-VMvisor-Installer-7.0U3n-21930508.x86_64.iso",
+			"VMware ESXI 8.0 Update 3 (Build 24022510)": "VMware-VMvisor-Installer-8.0U3-24022510.x86_64.iso"
+		},
+		"Debian": {
+			"Debian 12 (12.11.0)": "debian-12.11.0-amd64-netinst.iso"
+		},
+		"Ubuntu": {
+			"Ubuntu 24.04.2 (Link)": "https://releases.ubuntu.com/24.04.2/ubuntu-24.04.2-live-server-amd64.iso"
+		},
+		"FreeBSD": {
+			"FreeBSD 14.2 (Link)": "https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-bootonly.iso"
+		},
+		"Tools and utilities": {
+			"System Rescue v10.02": "systemrescue-10.02-amd64.iso",
+			"System Rescue v12.01 (Link)": "https://fastly-cdn.system-rescue.org/releases/12.01/systemrescue-12.01-amd64.iso"
+		}
+	},
+	"Memdisk": "memdisk-5.10"
+}
